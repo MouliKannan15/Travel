@@ -1,0 +1,134 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <form  method="post"  action="Clogin.php">
+        User Name: <input type="text" name="Cname"><br>
+        Password : <input type="text" name="Cpassword"><br>
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        /* General body styling */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: url('../photo-1476514525535-07fb3b4ae5f1.jpeg')no-repeat center center/cover; /* Travel image background */
+        }
+
+        /* Form container styling */
+        .form-container {
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            width: 350px;
+            text-align: center;
+        }
+
+        .form-container h2 {
+            margin-bottom: 20px;
+            font-size: 24px;
+            color: #333;
+        }
+
+        /* Input fields styling */
+        input[type="text"] {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-size: 16px;
+            transition: border-color 0.3s ease;
+        }
+
+        /* Focus effect for inputs */
+        input[type="text"]:focus {
+            border-color: #2575fc;
+            outline: none;
+        }
+
+        /* Submit button styling */
+        input[type="submit"] {
+            background-color: #2575fc;
+            color: white;
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            width: 100%;
+            transition: background-color 0.3s ease;
+        }
+
+        /* Submit button hover effect */
+        input[type="submit"]:hover {
+            background-color: #6a11cb;
+        }
+
+        /* Label styling */
+        label {
+            font-size: 14px;
+            color: #666;
+            text-align: left;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        /* Link to register or forgotten password */
+        .form-footer {
+            margin-top: 15px;
+        }
+
+        .form-footer a {
+            color: #2575fc;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .form-footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="form-container">
+        <h2>Login</h2>
+        <form method="post" action="Clogin.php">
+            <label for="Cname">User Name:</label>
+            <input type="text" name="Cname" id="Cname" placeholder="Enter your username" required><br>
+            
+            <label for="Cpassword">Password:</label>
+            <input type="text" name="Cpassword" id="Cpassword" placeholder="Enter your password" required><br>
+            
+            <input type="submit" value="Submit">
+        </form>
+        <div class="form-footer">
+            <a href="#">Forgot password?</a> | <a href="#">Create an account</a>
+        </div>
+    </div>
+
+</body>
+</html>

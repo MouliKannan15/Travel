@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "../../html1"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../html25"
+		},
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../Mini"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "html"
+	}
+}

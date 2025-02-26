@@ -1,0 +1,89 @@
+ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+
+
+.nav-link 
+{
+    border-bottom: 2px solid transparent;
+}
+.nav-link:hover {
+border-bottom: 2px solid black;
+}
+
+.abt
+    {
+        position: absolute;
+    }
+    .au {
+        padding-left: 520px;
+        padding-top: 50px;
+        position: absolute;
+        color: white;
+        font-size: 60px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .head 
+    {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding-left: 90px;
+        font-size: 50px;
+        padding-top: 30px;
+    }
+    .container {
+        padding-top: 50px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        /* position: absolute;
+        color: bisque; */
+    }
+    .travel
+{
+    padding-top: 40px;
+    border-radius: 20px;
+}
+    .footer {
+    background-color:black;
+    color:white;
+    padding: 50px 0;
+}
+.footer-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer-address {
+    width: 30%;
+    margin-right: 20px;
+}
+
+.footer-social {
+    width: 30%;
+}
+
+.footer-copyright {
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
+
+.footer h3 {
+    margin-bottom: 20px;
+}
+
+.footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer li {
+    margin-bottom: 10px;
+}
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
